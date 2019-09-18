@@ -1,0 +1,24 @@
+perl
+Net::Telnet
+Getopt::Long
+
+OS independant: written in interpreted language.
+
+==================================================
+Tested with:
+============
+--  [ 11:01:57, olli@skylab, ~/bin  ]
+$ rpm -qa | grep Net-Telnet
+perl-Net-Telnet-3.03-181
+--  [ 11:08:30, olli@skylab, ~/bin  ]
+$ rpm -qa | grep perl-5 | grep -v www
+perl-5.8.5-3
+--  [ 11:09:56, olli@skylab, ~  ]
+$ cat /etc/SuSE-release | grep -v ^V
+SuSE Linux 9.2 (i586)
+==================================================
+
+Should work w/ other versions & distributions.
+Please mail me if you've tested this works OK w/ your system
+w/ anoher above package mix. Provide same info if mailing.
+

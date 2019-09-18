@@ -1,0 +1,10 @@
+Copy script to any place in your $PATH. On your choice you may symlink it to another name.
+
+If running script with '--help' doesn't work:
+
+	Ensure that 1st string in script contains right path to your perl interpreter.
+	`which perl` should give your correct path.
+
+	Encure that your system has modules listed in DEPEND .
+
+
